@@ -1,0 +1,38 @@
+#sharedRow
+{
+    margin: 40px 10%;
+}
+.sharedContent
+{
+    border: 1px solid rgb(216, 216, 216);
+    padding: 0;
+    
+}
+.sharedContent:hover
+{
+    background-color: #63757F;
+    transition: all 300ms linear 0s;
+    cursor: pointer;
+    color: white;
+}
+.sharedContentLink
+{
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    text-decoration: none;
+}
+.sharedContentLink img{
+    width: 25%;
+}
+.sharedContentLink h5{
+    padding: 10px 0;
+    color: #2F3943;
+}
+.sharedContent:hover h5 {
+    color: rgb(255, 255, 255);
+}

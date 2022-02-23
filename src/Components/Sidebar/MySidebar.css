@@ -1,0 +1,76 @@
+#sideMenuIcon {
+  color: #a1a6ad;
+}
+#logo {
+  width: 100%;  
+  padding: 10px;
+  margin-bottom: -60px;  
+}
+.sideMenuBar {
+  overflow-y: scroll;
+}
+.sideMenuBar::-webkit-scrollbar {
+  display: none;
+}
+.btnContainer {
+  justify-content: center;
+  padding: 20px 0;
+  display: grid;
+  grid-template-columns: 80%;
+  grid-row-gap: 20px;
+}
+.sideNavLink {
+  text-decoration: none;
+  color: #a1a6ad;
+  font-weight: 700;
+  width: 100%;
+}
+.sideNavLink:hover {
+  color: #a1a6ad;
+}
+.options
+{
+  background-color: #2D3947;
+  width: 100%;
+  /* padding: 10px; */
+  height: 200px;
+  margin-top: 10px;
+}
+
+.nested {
+  display: flex;
+  justify-content: space-between;
+  float: right;
+  width: 80%;
+}
+
+
+.sideToggle
+{
+  display: block;
+  background-color: #2D3947;
+}
+.sideToggleNone
+{
+  display: none;
+}
+/* 2 */
+.sideToggle2
+{
+  display: block;
+  background-color: #2D3947;
+}
+.sideToggleNone2
+{
+  display: none;
+}
+/* 3 */
+.sideToggle3
+{
+  display: block;
+  background-color: #2D3947;
+}
+.sideToggleNone3
+{
+  display: none;
+}

@@ -1,0 +1,11 @@
+footer
+{
+    height: 100vh;
+    background-color: #2F3943;
+    padding: 50px;
+}
+.col2content
+{
+    display: flex;
+    justify-content: space-around;
+}

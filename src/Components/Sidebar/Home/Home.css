@@ -1,0 +1,82 @@
+.pagination {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f4f6fc;
+  border: 1px solid rgb(200, 200, 200);
+  margin: 0 10%;
+  padding: 20px 0;
+}
+.page {
+  padding: 15px 0;
+  width: 70px;
+  margin: auto;
+  border-radius: 100%;
+  border: 1px solid red;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.pagination p {
+  margin-top: 10px;
+  font-weight: 600;
+  color: rgb(100, 100, 100);
+}
+.page:hover {
+  background-color: #63757f;
+  color: rgb(211, 211, 211);
+}
+
+.research{
+  border-top: 1px solid gray;
+  padding: 10px;
+}
+
+.option{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.option-item{
+  border: 1px solid black;
+  width: 240px;
+  height: 140px;
+  margin-top: 20px;
+}
+
+.option-icon{
+  font-size: 30px;
+  text-align: center;
+  background-color: #4A5C66;
+  color: white;
+  height: 50%;
+  padding: 10px;
+}
+.option-info{
+  text-align: center;
+  margin-top: 13px;
+}
+
+
+@media only screen and (max-width: 900px) {
+  .page {
+    padding: 5px ;
+    width: 45px;
+  }
+  .pagination p {
+    text-align: center;
+    font-size: 10px;
+  }
+  .option{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+    
+  .option-item{
+    margin: auto;
+    margin-top: 10px;
+  }
+}
